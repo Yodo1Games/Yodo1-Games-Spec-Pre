@@ -14,10 +14,10 @@ s.summary = 'Yodo1SmartPollySdk for iOS'
 s.swift_version = '5.0'
 
 # This description is used to generate tags and improve search results.
-# LICENSE Yodo1SmartPollySdk Yodo1SmartPollySdk.podspec build config.json ossutilmac64 prepare.sh publish.sh release-info.md Think: What does it do? Why poddid you write it? What is the focus?
-# LICENSE Yodo1SmartPollySdk Yodo1SmartPollySdk.podspec build config.json ossutilmac64 prepare.sh publish.sh release-info.md Try to keep it short, snappy and to the point.
-# LICENSE Yodo1SmartPollySdk Yodo1SmartPollySdk.podspec build config.json ossutilmac64 prepare.sh publish.sh release-info.md Write the description between the DESC delimiters below.
-# LICENSE Yodo1SmartPollySdk Yodo1SmartPollySdk.podspec build config.json ossutilmac64 prepare.sh publish.sh release-info.md Finally, don't worry about the indent, CocoaPods strips it!
+# LICENSE Yodo1SmartPollySdk Yodo1SmartPollySdk.podspec build config.json ossutilmac64 prepare.sh publish.sh Think: What does it do? Why poddid you write it? What is the focus?
+# LICENSE Yodo1SmartPollySdk Yodo1SmartPollySdk.podspec build config.json ossutilmac64 prepare.sh publish.sh Try to keep it short, snappy and to the point.
+# LICENSE Yodo1SmartPollySdk Yodo1SmartPollySdk.podspec build config.json ossutilmac64 prepare.sh publish.sh Write the description between the DESC delimiters below.
+# LICENSE Yodo1SmartPollySdk Yodo1SmartPollySdk.podspec build config.json ossutilmac64 prepare.sh publish.sh Finally, don't worry about the indent, CocoaPods strips it!
 
 s.description = <<-DESC
 TODO: Yodo1SmartPollySdk
