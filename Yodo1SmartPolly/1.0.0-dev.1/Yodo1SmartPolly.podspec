@@ -20,7 +20,7 @@ s.swift_version = '5.0'
 # LICENSE Yodo1SmartPolly Yodo1SmartPolly.podspec build config.json ossutilmac64 prepare.sh publish.sh Finally, don't worry about the indent, CocoaPods strips it!
 
 s.description = <<-DESC
-TODO: Yodo1SmartPollySdk
+TODO: Yodo1SmartPolly
 DESC
 
 s.homepage = 'https://www.yodo1.com/'
