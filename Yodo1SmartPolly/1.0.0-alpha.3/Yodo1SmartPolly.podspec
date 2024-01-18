@@ -37,7 +37,8 @@ s.pod_target_xcconfig = {
 "VALID_ARCHS[sdk=iphoneos*]" => "arm64 arm64e armv7 armv7s",
 "VALID_ARCHS[sdk=iphonesimulator*]" => "x86_64 arm64"
 }
-s.resources = s.name + '/Assets/Yodo1SmartPolly.bundle'
+# s.resources = s.name + '/Assets/Yodo1SmartPolly.bundle'
+s.resources = s.name + '/Assets/Yodo1SmartPolly.bundle', s.name + '/Assets/Yodo1SmartPolly.plist'
 s.source_files = s.name + '/Classes/**/*'
 s.public_header_files = s.name + '/Classes/**/*.h'
 s.frameworks = 'UIKit', 'Foundation', 'CoreTelephony', 'SystemConfiguration', 'CoreGraphics', 'Security'
