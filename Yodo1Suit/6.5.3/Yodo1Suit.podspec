@@ -73,8 +73,8 @@ sub.subspec 'Adjust' do |sub1|
 sub1.source_files = s.name + '/Analytics/Classes/Adjust/**/*'
 sub1.public_header_files = s.name + '/Analytics/Classes/Adjust/**/*.h'
 sub1.frameworks = ['AdSupport','AdServices','StoreKit','AppTrackingTransparency']
-sub1.dependency 'Adjust', '4.38.1'
-sub1.dependency 'BDASignalSDK', '1.0.3'
+sub1.dependency 'Adjust', '5.4.4'
+sub1.dependency 'BDASignalSDK', '1.0.6'
 sub1.dependency 'Yodo1Suit/Analytics/Core', "#{s.version}"
 end
 end
@@ -177,7 +177,7 @@ end
 
 s.subspec 'Purchase' do |sub|
 sub.xcconfig = {
-"GCC_PREPROCESSOR_DEFINITIONS" => 'YODO1_UCENTER',
+"GCC_PREPROCESSOR_DEFINITIONS" => 'YODO1_UCCENTER',
 }
 
 sub.source_files = s.name + '/Purchase/Classes/**/*'
