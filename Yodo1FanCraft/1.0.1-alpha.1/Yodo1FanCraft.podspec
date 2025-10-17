@@ -12,13 +12,6 @@ Pod::Spec.new do |s|
   s.version = '1.0.1-alpha.1'
   s.summary          = 'Yodo1FanCraft for iOS'
   s.swift_version    = '5.0'
-  
-  # This description is used to generate tags and improve search results.
-  #   * Think: What does it do? Why poddid you write it? What is the focus?
-  #   * Try to keep it short, snappy and to the point.
-  #   * Write the description between the DESC delimiters below.
-  #   * Finally, don't worry about the indent, CocoaPods strips it!
-  
   s.description      = <<-DESC
   TODO: Yodo1FanCraft
   DESC
@@ -37,7 +30,6 @@ Pod::Spec.new do |s|
     "VALID_ARCHS[sdk=iphoneos*]" => "arm64 arm64e armv7 armv7s",
     "VALID_ARCHS[sdk=iphonesimulator*]" => "x86_64 arm64"
   }
-#  s.resources = s.name + '/Assets/Yodo1FanCraft.bundle'
   s.resources = s.name + '/Assets/Yodo1FanCraft.bundle', s.name + '/Assets/Yodo1FanCraft.plist'
   s.source_files = s.name + '/Classes/**/*'
   s.public_header_files = s.name + '/Classes/**/*.h'
